@@ -1,4 +1,4 @@
-package sheng;
+dddddpackage sheng;
 
 import java.util.Scanner;
 
