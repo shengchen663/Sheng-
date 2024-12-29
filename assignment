@@ -1,0 +1,33 @@
+package sheng;
+import java.util.Scanner;
+
+class Assignment1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner b = new Scanner (System.in);
+		System.out.print("Enter student name");
+		System.out.print("Enter student score for subject 1");
+		int score1 = b.nextInt();
+		System.out.print("Enter student score for subject 2");
+		int score2 = b.nextInt();
+		System.out.print("Enter student score for subject 3");
+		int score3 = b.nextInt();
+		
+		   int totalScore = score1 + score2 + score3;
+        int averageScore = totalScore / 3;
+        
+        if(averageScore>=90 && averageScore<=100 ){
+			System.out.println("he is grade A");}
+		if(averageScore >=80 && averageScore<90){
+			System.out.println("he is grade B");}
+		 if(averageScore>=70 && averageScore<80){
+			System.out.println("he is grade C");}
+	      if(averageScore>=60 && averageScore<70 ){
+			System.out.println("he is grade D");}
+	      if(averageScore<60){
+				System.out.println("he is grade F");}
+		
+	}
+
+}
